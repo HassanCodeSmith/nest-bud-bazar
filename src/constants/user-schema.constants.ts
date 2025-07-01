@@ -1,0 +1,16 @@
+export enum ACCOUNT_TYPE {
+  BUYER = 'BUYER',
+  SELLER = 'SELLER',
+  ADMIN = 'ADMIN',
+}
+
+export enum ACCOUNT_STATUS {
+  PENDING = 'PENDING',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+}
+
+export enum PRODUCT_TYPE {
+  CANNABIS = 'CANNABIS',
+  HEMP = 'HEMP',
+}
